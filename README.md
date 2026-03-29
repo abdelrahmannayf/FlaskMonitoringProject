@@ -1,5 +1,5 @@
 # 📊 Flask Monitoring Stack
-
+![](screenshots/app.png)
 A production-grade DevOps project featuring a Flask application with full CI/CD pipeline, container optimization, Kubernetes deployment via Helm, and real-time monitoring with Prometheus & Grafana.
 
 ---
@@ -48,7 +48,7 @@ Developer
             │  └──────────────────┘   │
             └─────────────────────────┘
 ```
-
+![](screenshots/jen.png)
 ---
 
 ## 🛠️ Tech Stack
@@ -112,7 +112,7 @@ Deploy and upgrade with a single command:
 ```bash
 helm upgrade --install flaskapp ./flaskapp -n monitoring
 ```
-
+![](screenshots/helm.png)
 ### 📊 Prometheus Metrics
 Built-in `/metrics` endpoint exposing:
 - Request count per endpoint
@@ -123,7 +123,7 @@ Real-time visualization of:
 - CPU & Memory usage per container
 - Pod status across namespace
 - Resource requests vs limits
-
+![](screenshots/gra.png)
 ---
 
 ## 🚀 Setup & Deployment
