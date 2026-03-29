@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build Image') {
             steps {
-                sh "docker build -t ${IMAGE_NAME}:latest ./app"
+                sh "docker build -t ${IMAGE_NAME}:latest ."
             }
         }
         stage('Scan Image (Trivy)') {
